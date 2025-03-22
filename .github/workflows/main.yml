@@ -9,6 +9,7 @@ on:
     # Отслеживаем изменения только в ветке main
     branches:
       - main
+      - master
 # Перечень задач
 jobs:
   # Единственная задача — склонировать код 
@@ -23,4 +24,4 @@ jobs:
         uses: actions/checkout@v3  # Берём готовое решение из библиотеки GitHub Actions
       # Выполняем команду tree в текущей директории
       - name: Print project tree
-        run: tree
+        run: tree .
