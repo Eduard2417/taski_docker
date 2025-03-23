@@ -119,4 +119,4 @@ jobs:
         with:
           context: ./gateway/
           push: true
-          tags: username/taski_gateway:latest
+          tags: eduard2417/taski_gateway:latest
